@@ -1,62 +1,57 @@
-# Welcome to the project
+# Online Complaint Registration and Management System
 
+## Category
+Fullstack Development - MERN Stack
 
-## How can I edit this code?
+## Skills Used
+- Frontend: HTML, CSS, React.js, Material UI, Bootstrap
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Tools: Axios, Mongoose, JWT, Nodemailer (for email), Socket.io (for chat, optional)
 
-There are several ways of editing your application.
+## Project Description
+This system enables users to register complaints, track progress, and communicate with assigned agents securely. It supports real-time tracking, automated notifications, and centralizes complaint management.
 
-**Use your preferred IDE**
+## Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected.
+- User Registration and Login  
+  Users can securely register and log in to access the platform.
 
-The only requirement is having Node.js & npm installed - [install with nvm]
+- Complaint Submission  
+  Users can submit complaints with relevant details (name, description, address, etc.).
 
-Follow these steps:
+- Real-Time Tracking and Notifications  
+  Users receive updates via email or SMS about the complaint status.
 
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Agent Interaction  
+  In-built chat system allows users to interact with the assigned agent.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Smart Complaint Routing  
+  Automatically assigns complaints to the right department or agent.
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Security  
+  - JWT Authentication  
+  - Data Encryption  
+  - Role-based access control
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Example Use Case
 
-**Edit a file directly in GitHub**
+1. John, a customer, has a defective product.
+2. He registers and logs into the platform.
+3. Submits a complaint with details and evidence.
+4. Tracks the complaint and chats with the assigned agent.
+5. Receives a resolution and provides feedback.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technical Architecture
 
-**Use GitHub Codespaces**
+### Frontend
+- Built with React.js, styled using Material UI and Bootstrap.
+- API calls handled using Axios.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-You can deploy this project using platforms like:
-
-Vercel: https://vercel.com
-
-Netlify: https://www.netlify.com
-
-Both support instant deployment for Vite + React apps.
-
-
+### Backend
+- Server-side handled by Express.js.
+- Data stored and managed using MongoDB and Mongoose.
+- Authentication secured with JWT.
+  
+### Run Application
+- Use npm start for both frontend and backend after configuring the environment.
