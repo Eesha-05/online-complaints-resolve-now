@@ -1,62 +1,85 @@
-# Welcome to the project
+# Online Complaint Registration and Management System  
 
+### **Category**  
+Fullstack Development - MERN  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### **Skills Required**  
+- HTML, CSS , TypeScript  
+- React.js, Material UI, Bootstrap  
+- Node.js, Express.js  
+- MongoDB  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected.
+### **Project Description**  
+An **Online Complaint Registration and Management System** enables users to register, track, and resolve complaints efficiently. It ensures secure communication between users and assigned agents while providing features like real-time tracking, automated notifications, and a centralized platform for managing complaints.  
 
-The only requirement is having Node.js & npm installed - [install with nvm]
+---
 
-Follow these steps:
+### **Key Features**  
+1. **User Registration:** Create accounts to submit complaints and track progress.  
+2. **Complaint Submission:** Add details like name, description, address, and more.  
+3. **Tracking and Notifications:** Real-time updates on complaint progress via email/SMS.  
+4. **Agent Interaction:** Built-in chat for resolving complaints.  
+5. **Complaint Routing:** Assigns complaints to appropriate departments/agents.  
+6. **Security:** User authentication, data encryption, and compliance with regulations.  
 
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Scenario**  
+**Example Use Case**  
+John, a customer, faces an issue with a defective product. Using the platform, he:  
+1. Registers and logs in.  
+2. Submits a complaint with details and evidence.  
+3. Tracks updates and interacts with the assigned agent.  
+4. Receives a resolution and provides feedback.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### **Technical Architecture**  
+**Frontend:**  
+- Developed using React.js, Bootstrap, and Material UI.  
+- API integration via Axios for seamless backend communication.  
 
-**Edit a file directly in GitHub**
+**Backend:**  
+- Express.js for server-side logic.  
+- MongoDB for scalable and efficient data storage.  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Features:**  
+- **Authentication:** JSON Web Tokens (JWT) for secure access.  
+- **Routing:** Intelligent complaint assignment.  
+- **Chat System:** Interactive chat window for users and agents.  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### **Database Schemas**  
+1. **User Schema:** Stores user information (name, email, password, userType).  
+2. **Complaint Schema:** Manages complaints with fields like `name`, `address`, and `status`.  
+3. **Assigned Complaint Schema:** Tracks agent assignments and complaint resolution status.  
+4. **Chat Schema:** Logs communication between users and agents.  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+### **Setup Instructions**  
+1. **Frontend:**  
+   - Install required libraries: React.js, Bootstrap, Material UI.  
+   - Create reusable UI components.  
+   - Integrate APIs for data binding.  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. **Backend:**  
+   - Set up Express.js server with middleware like `body-parser` and `cors`.  
+   - Implement routes for authentication, complaint handling, and admin operations.  
+   - Use Mongoose for database operations with MongoDB.  
 
-## How can I deploy this project?
+3. **Run Application:**  
+   - Use `npm start` for both frontend and backend after configuring the environment.  
 
-You can deploy this project using platforms like:
+---
 
-Vercel: https://vercel.com
+### **Demo**  
+- **App Code:** [Google Drive Link](https://drive.google.com/drive/folders/1uGwb-keRJCab88xNFCD4EoXzZsDChZe3)  
+- **Demo Video:** [Google Drive Link](https://drive.google.com/file/d/1gOtigGKJTA-QVbi4ppTDNDUgLC0pU0FF/view)  
 
-Netlify: https://www.netlify.com
-
-Both support instant deployment for Vite + React apps.
-
-
+---
